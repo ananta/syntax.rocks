@@ -1,0 +1,35 @@
+.post-page-main {
+  display: grid;
+  grid-template-columns: 0.8fr 2.2fr;
+}
+.post-main {
+  background-color: white;
+  padding: 10px;
+}
+.post-main p {
+  color: black;
+}
+.d-inline p {
+  color: white !important;
+}
+.d-block p {
+  color: white !important;
+}
+.heading {
+  font-family: "Raleway";
+}
+
+.sidebar {
+  width: 90%;
+}
+
+@media only screen and (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+  .post-page-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

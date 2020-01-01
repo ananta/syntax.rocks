@@ -1,0 +1,31 @@
+p,
+.title {
+  font-family: "Raleway";
+  color: white;
+}
+
+.d-inline {
+  color: white !important;
+}
+.post-list-main h2 {
+  color: white;
+}
+.index-main {
+  display: grid;
+  grid-template-columns: 0.8fr 2.2fr;
+}
+
+.sidebar {
+  width: 90%;
+}
+
+@media only screen and (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+  .index-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
