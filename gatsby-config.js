@@ -7,8 +7,9 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
+    description: `Syntax.Rocks is a place where developers could collaborate with one another to horn their skills in their domain.`,
     author: siteConfig.author.name,
+    image: "src/images/logo.png",
     contacts: {
       linkedin: siteConfig.author.contacts.linkedin,
       github: siteConfig.author.contacts.github,
@@ -76,17 +77,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `syntax.rocks`,
+        short_name: `syntax.rocks`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
