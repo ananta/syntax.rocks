@@ -7,7 +7,7 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    description: `Syntax.Rocks is a place where developers could collaborate with one another to horn their skills in their domain.`,
+    description: `Syntax.Rocks is a place where developers collaborate with one another to horn their skills in their domain.`,
     author: siteConfig.author.name,
     image: "src/images/logo.png",
     contacts: {
