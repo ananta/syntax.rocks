@@ -53,8 +53,8 @@ const Layout = ({ children }) => {
               <hr />
               <p className="d-inline">
                 © {new Date().getFullYear()}{" "}
-                <a className="text-info" href="https://ananta.github.io/">
-                  4nnt4
+                <a className="text-info" href="https://syntax.rocks">
+                  syntax.rocks
                 </a>
                 , All Rights Reserved.
               </p>
