@@ -23,8 +23,8 @@ You can use Markdown at different places around Github:
 
 #### Text
 
-```
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+```markdown
+It's very easy to make some words **bold** and other words _italic_ with Markdown. You can even [link to Google!](http://google.com)
 ```
 
 It's very easy to make some words **bold** and other words _italic_ with Markdown. You can even [link to Google!](http://google.com)
@@ -33,7 +33,7 @@ It's very easy to make some words **bold** and other words _italic_ with Markdow
 
 #### Lists
 
-```
+```markdown
 Sometimes you want numbered lists:
 
 1. One
@@ -42,8 +42,8 @@ Sometimes you want numbered lists:
 
 Sometimes you want bullet points:
 
-* Start a line with a star
-* Profit!
+- Start a line with a star
+- Profit!
 
 Alternatively,
 
@@ -75,7 +75,7 @@ Alternatively,
 
 #### Images
 
-```
+```markdown
 If you want to embed images this is how you do it:
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
@@ -89,7 +89,7 @@ If you want to embed images, this is how you do it:
 
 #### Headers & Quotes
 
-```
+```markdown
 # Structured documents
 
 Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
@@ -101,6 +101,7 @@ You can use one `#` all the way up to `######` six for different heading sizes.
 If you'd like to quote someone, use the > character before the line:
 
 > Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+>
 > - Captain Janeway
 ```
 
@@ -122,7 +123,7 @@ If you'd like to quote someone, use the > character before the line:
 
 #### Extras
 
-```
+```markdown
 It supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!
 
 But I have to admit, tasks lists are my favorite:
