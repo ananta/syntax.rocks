@@ -1,6 +1,7 @@
 "use strict"
 
 const siteConfig = require("./config")
+const _ = require("lodash")
 
 module.exports = {
   siteMetadata: {
@@ -84,6 +85,21 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+              wrapperStyle: fluidResult =>
+                `flex:${_.round(fluidResult.aspectRatio, 2)};`,
+            },
+          },
+        ],
       },
     },
   ],
