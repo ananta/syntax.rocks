@@ -40,4 +40,8 @@ Start the developement environment
 npm start
 ```
 
-The start script triggers `gatsby develop`
+The start script triggers
+
+```
+ gatsby develop
+```

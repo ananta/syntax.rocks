@@ -15,7 +15,7 @@ tags:
     "mongodb",
     "graphql",
     "gatsby",
-    "syntax-rocks",
+    "design-patterns",
   ]
 published: true
 date: "2019-12-31"
