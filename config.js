@@ -7,13 +7,13 @@ module.exports = {
   copyright: "© 2020 Syntax.Rocks, All rights reserved",
   author: {
     name: "Ananta Bastola",
-    bio: "I talk with code!",
+    bio: "Let's share our knowledge",
     contacts: {
       linkedin: "https://www.linkedin.com/in/anantabastola/",
       github: "https://github.com/ananta",
       stackoverflow: "https://stackoverflow.com/users/7326779/ananta",
-      freecodecamp: "https://twitter.com/4nnt4",
-      twitter: "https://twitter.com/4nnt4",
+      freecodecamp: "https://www.freecodecamp.org/anantabastola",
+      twitter: "https://twitter.com/ananta_bastola",
     },
   },
   labels: [
