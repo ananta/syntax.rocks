@@ -1,4 +1,11 @@
-# Config SSH and User in a DigitalOcean Droplet
+---
+title: "Config SSH and User in a DigitalOcean Droplet"
+tags: ["git"]
+published: true
+date: "2020-11-11"
+---
+
+---
 
 ## Setup SSH and User in Server
 
